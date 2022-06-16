@@ -1,14 +1,8 @@
 import React from "react";
-import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPrimitiveDot } from "react-icons/go";
 
-import { Stacked, Pie, Button } from "../components";
-import {
-  earningData,
-  ecomPieChartDat,
-  stackedPrimaryXAxis,
-  stackedPrimaryYAxis,
-} from "../data/dummy";
+import { Stacked, Button } from "../components";
+import { earningData } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
 
 const Ecomerce = () => {
@@ -93,17 +87,6 @@ const Ecomerce = () => {
                 </p>
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
-              {/* <div className="mt-5 ">
-                <SparkLine
-                  currentColor="blue"
-                  id="line-sparkLine"
-                  type="Line"
-                  height="80px"
-                  width="250px"
-                  data={SparklineAreaData}
-                  color="blue"
-                />
-              </div> */}
               <div className="mt-10">
                 <Button
                   color="white"
