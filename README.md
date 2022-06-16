@@ -2,15 +2,17 @@
 
 ### How to start the app
 
-1. Clone the repository
-2. Navigate to the directory and write `npm install` to install all the dependencies
-3. After installing the dependencies write `npm start` to start a localhost server on port 3000
-4. Go to localhost:3000 and play with the app
+1. Download the repository
+2. Open CMD
+3. Navigate to the downloaded directory and write `npm install` to install all the dependencies
+4. After installing the dependencies write `npm start` to start a localhost server on port 3000
+5. Go to localhost:3000 in your favourite browser
 
 ### About
 
 Fully responsive admin dashboard created with React.  
-This dashboard contains 4 pages and 4 applications.  
+This dashboard contains 4 pages and 4 applications.
+
 This project was creating with:
 
 1. React (Used Context for state managment)
