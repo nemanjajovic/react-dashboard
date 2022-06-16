@@ -3,7 +3,7 @@
 ### How to start the app
 
 1. Download the repository
-2. Open CMD
+2. Open the Command Line Prompt
 3. Navigate to the downloaded directory and write `npm install` to install all the dependencies
 4. After installing the dependencies write `npm start` to start a localhost server on port 3000
 5. Go to localhost:3000 in your favourite browser
